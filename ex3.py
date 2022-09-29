@@ -1,0 +1,5 @@
+list = input("Enter the length and width of a rectangle (E.g. 4 7)").split(" ")
+a= int(list[0])
+b= int(list[1])
+print("perimeter is :",2*(a+b))
+print("area is :",(a*b))

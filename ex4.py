@@ -1,0 +1,7 @@
+list = input("Enter three integer numbers (E.g. 4 7)").split(" ")
+a = int(list[0])
+b = int(list[1])
+c = int(list[2])
+print("sum is :",a+b+c)
+print("product is :",a*b*c)
+print("average is :",(a+b+c)/3)
